@@ -13,6 +13,11 @@ List the top 5 states that contribute to the sales.
 Relation between age and gender based on several orders.
 Which channel is contributing to maximum sales?
 # Dashboard_Link
-
-
-
+https://github.com/pawansingh29806/Outlet_Data_Analysis/commit/cbabaaf09f293954615ddd73349cb51c6a769b19
+# Process 
+Data Cleaning
+First, we have to cross-check each column that the data is correct or not.
+In the Gender column, we have four unique entries ‘Men’, ‘M’, ‘Women’, and ‘W’.
+We have to convert all the ‘M’ to ‘Men’ and ‘W’ to ‘Women’ using the Find and Replace option in the home tab.
+In Qty. column, we have some numeric values like 1, 2, 3, etc., and some alphabetic values like one and two.
+Use the Find and Replace option again to replace these alphabetical values with numeric ones.
